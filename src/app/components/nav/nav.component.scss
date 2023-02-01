@@ -1,0 +1,30 @@
+.nav__container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+
+  .nav__right {
+
+    padding-top: 10px;
+    padding-right: 25px;
+
+    .nav__right-a {
+
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    .nav__right-button {
+      padding: 10px;
+      border-radius: 5px;
+      color: white;
+      font-weight: bold;
+      margin-left: 32px;
+      background-color: red;
+      cursor: pointer;
+    }
+
+
+  }
+}

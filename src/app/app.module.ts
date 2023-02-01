@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './components/nav/nav.component';
 import { FilmsComponent } from './components/films/films.component';
 import { HeroineComponent } from './components/heroine/heroine.component';
-import { ButtonComponent } from './components/button/button.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +13,7 @@ import { ButtonComponent } from './components/button/button.component';
     NavComponent,
     HeroineComponent,
     FilmsComponent,
-    ButtonComponent,
+   
    
   ],
   imports: [
