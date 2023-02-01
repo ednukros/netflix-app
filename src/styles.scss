@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Share+Tech+Mono&display=swap');
+$color-red: #e50914;
+$font-color:#ffff;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    color: $color-red;
+}
+
+body {
+    background-color: black;
+    color: $font-color;
+}
