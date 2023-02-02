@@ -1,0 +1,41 @@
+
+.heroine__container{
+    padding: 30px;
+    // &-title {
+      
+        
+    // }
+    .heroine__container-films {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+       
+    
+       
+        .heroine__film {
+           display: flex;
+           align-items: center;
+         
+
+           &-img {
+            width: 300px;
+           }
+           &-number {
+            font-size: 100px;
+           }
+
+
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 524px) {
+
+    .heroine__container-films {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }

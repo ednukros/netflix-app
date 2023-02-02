@@ -1,1 +1,13 @@
-<p>heroine works!</p>
+<div class="heroine__container">
+  <h3 class="heroine__container-title">Los 5 más populares</h3>
+
+  <div class="heroine__container-films">
+
+  <div class="heroine__film" *ngFor="let element of heroineArray">
+
+      <p class="heroine__film-number">{{element.number}}</p>
+      <img class="heroine__film-img" src="{{element.image}}" alt="film image">
+
+    </div>
+  </div>
+</div>
