@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { IHeroine } from '../models/iheroine';
 
 @Component({
   selector: 'app-heroine',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeroineComponent implements OnInit {
 
-  heroineArray = [
+  public heroineArray: IHeroine[] = [
 
     {
       image: '../../assets/Top10/1-papel.webp',

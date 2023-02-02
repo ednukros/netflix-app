@@ -1,5 +1,5 @@
-export interface IHeroine { //tengo que tener un model por cada componente???
+export interface IHeroine { 
 
     image: String,
-    number: number;
+    number: Number;
 }
