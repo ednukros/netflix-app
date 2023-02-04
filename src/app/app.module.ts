@@ -6,11 +6,10 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './components/nav/nav.component';
 import { HeroineComponent } from './components/heroine/heroine.component';
 import { ComedyComponent } from './components/comedy/comedy.component';
-import { ActionComponent } from './components/action/action.component';
-import { AnimeComponent } from './components/anime/anime.component';
 import { DramaComponent } from './components/drama/drama.component';
 import { SciFiComponent } from './components/sci-fi/sci-fi.component';
 import { TerrorComponent } from './components/terror/terror.component';
+import { FilmsComponent } from './components/films/films.component';
 
 @NgModule({
   declarations: [
@@ -18,14 +17,10 @@ import { TerrorComponent } from './components/terror/terror.component';
     NavComponent,
     HeroineComponent,
     ComedyComponent,
-    ActionComponent,
-    AnimeComponent,
     DramaComponent,
     SciFiComponent,
     TerrorComponent,
-   
-   
-   
+    FilmsComponent,
   ],
   imports: [
     BrowserModule,

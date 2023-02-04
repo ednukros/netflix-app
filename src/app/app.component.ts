@@ -7,4 +7,24 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'netflix-app';
+
+  public actionArray = [
+
+    { image: '../../assets/Accion/equalizer2.webp' },
+    { image: '../../assets/Accion/killbill2.webp' },
+    { image: '../../assets/Accion/heat.webp' },
+    { image: '../../assets/Accion/renacido.webp' },
+    { image: '../../assets/Accion/terminator2.webp' },
+    { image: '../../assets/Accion/worldwarz.webp' }
+  ]
+  public animeArray = [
+
+    { image: '../../assets/Anime/castilloambulante.webp' },
+    { image: '../../assets/Anime/evangelion.webp' },
+    { image: '../../assets/Anime/mononoke.webp' },
+    { image: '../../assets/Anime/chihiro.webp' },
+    { image: '../../assets/Anime/gundam.webp' },
+    { image: '../../assets/Anime/porcorosso.webp' }
+  ]
+
 }
