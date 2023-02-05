@@ -3,15 +3,17 @@
 
 
   &-title {
-    text-align: start;
     padding: 5px;
+    text-align: start;
+    font-size: 1.5rem;
 
   }
 
   .heroine__container-films {
-
     display: flex;
+    gap: 12px;
     justify-content: center;
+    margin-top: -105px;
     width: auto;
 
 
@@ -22,11 +24,17 @@
       width: auto;
 
       &-img {
-        width: 250px;
+        width: 170px;
+        margin-top: 5px;
       }
 
       &-number {
-        font-size: 100px;
+        color: transparent;
+
+        font-size: 304px;
+        font-weight: bold;
+        margin-right: -59px;
+        -webkit-text-stroke: 6px rgb(113, 112, 112);
       }
 
 
@@ -42,6 +50,6 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    
+
   }
 }

@@ -1,12 +1,18 @@
 .nav__container {
-  // padding: 20px;
-  // display: flex;
-  // justify-content: space-between;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
   .nav__logue {
-    padding: 20px;
+   
+    // padding: 20px;
+    padding-right: 5px;
     display: flex;
     justify-content: center;
     cursor: pointer;
+
+    &-img {
+      width: 150px;
+    }
   }
  
 
@@ -17,15 +23,15 @@
     align-items: center;
     gap: 35px;
 
-    .nav__controls-init, .nav__controls-cat {
+    .nav__controls-new, .nav__controls-home, .nav__controls-tv, .nav__controls-films, .nav__controls-mylist {
 
       text-decoration: none;
       color: white;
-      font-weight: bold;
+     
     }
 
     .nav__controls-search {
-      padding: 10px;
+      padding: 5px;
       border-radius: 5px;
       border: none;
       color: white;
@@ -47,7 +53,8 @@
 
   .nav__container {
     display: flex;
-    justify-content: space-between;
+    gap: 15px;
+    // justify-content: space-between;
     padding-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
