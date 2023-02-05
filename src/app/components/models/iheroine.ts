@@ -1,5 +1,8 @@
 export interface IHeroine { 
 
     image: String,
-    number: Number;
+    images?: {},
+    number?: Number;
+    categorie?: String;
+    
 }

@@ -1,9 +1,9 @@
 
 <div class="films__container">
-    <h3 class="films__container__title">Ciencia Ficción</h3>
+    <h3 class="films__container-title">{{films[1].categorie}}</h3>
 
-    <div class="films__container-films" *ngFor="let element of films">
-        <img class="scifi__film-img" src="{{element.image}}" alt="film image">
+    <div class="films__container-films"  >
+        <img class="film-img" *ngFor="let element of films[0].images" src="{{element.image}}" alt="film image">
     </div>
 
 </div>

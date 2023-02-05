@@ -1,0 +1,16 @@
+.films__container {
+    padding-top: 20px;
+    &-title {
+        text-align: start;
+        padding: 5px;
+    
+    }
+    &-films {
+        display: flex;
+        justify-content: center;
+        width: auto;
+        .film-img {
+            width: 250px;
+        }
+    }
+}
