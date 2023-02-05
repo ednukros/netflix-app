@@ -9,8 +9,22 @@
         display: flex;
         justify-content: center;
         width: auto;
+        gap:10px;
         .film-img {
             width: 250px;
+            
         }
     }
 }
+
+
+@media screen and (max-width: 524px) {
+
+    .films__container-films {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      
+    }
+  }
+  
