@@ -1,11 +1,12 @@
 .heroine__container {
-  padding-top: 50px;
+  padding-top: 5px;
 
 
   &-title {
     padding: 5px;
     text-align: start;
     font-size: 1.5rem;
+    padding-left: 25px;
 
   }
 
@@ -13,6 +14,7 @@
     display: flex;
     gap: 12px;
     justify-content: center;
+    margin-bottom: -90px;
     margin-top: -105px;
     width: auto;
 
@@ -29,7 +31,7 @@
       }
 
       &-number {
-        color: transparent;
+        color: black;
 
         font-size: 304px;
         font-weight: bold;

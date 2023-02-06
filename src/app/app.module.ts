@@ -13,6 +13,7 @@ import { FilmsComponent } from './components/films/films.component';
     NavComponent,
     HeroineComponent,
     FilmsComponent,
+
   ],
   imports: [
     BrowserModule,

@@ -26,26 +26,29 @@
     .nav__controls-new, .nav__controls-home, .nav__controls-tv, .nav__controls-films, .nav__controls-mylist {
 
       text-decoration: none;
-      color: white;
+      color: rgba(255, 255, 255, 0.722);
      
     }
 
-    .nav__controls-search {
-      padding: 5px;
-      border-radius: 5px;
-      border: none;
-      color: white;
-      font-weight: bold;
-      background-color: red;
-      cursor: pointer;
+   
 
-      &:hover {
 
-        opacity: 50%;
-      }
+  }
+  .nav__controls-search {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-color: red;
+    cursor: pointer;
+    width: 108px;
+    height: 45px;
+
+    &:hover {
+
+      opacity: 50%;
     }
-
-
   }
 }
 
